@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scott Marsden Portfolio</title>
+<meta author="Scott, but based on Juan Garcia's code: https://codepen.io/imjuangarcia/pen/pGgmbe">
+<link rel="stylesheet" href="homework4.css">
+<script type="text/javascript" src="homework4.js"></script>
+</head>
+
+<body>
+  <a name="top"></a>
+
+  <section class="hero">
+    <h1>Scott Marsden</h1>
+    <article>
+
+      <a href="#java">Project Work</a>
+    </article>
+  </section>
+<main class="wrapper">
+  <section class="skills" id="skills">
+    <ul>
+      <li>
+        <figure>
+          <img src="me.jpeg">
+          <figcaption><h3>Who am I?</h3></figcaption>
+        </figure>
+        <p>
+          I am currently a senior from Elon University who plans to graduate in May 2020.
+          I am obtaining a BS in Computer Science with a minor in Mathematics. I am a proficient
+          coder who is open to learning new things and team focused. Most recently I worked as
+          an application developer for MetLife in a summer internship. Through this I obtained corporate
+          exprience, learned a variety of new things, and learned how to work on a team. During my time a team
+          of interns including me won the intern innovation challenge and currently MetLife is implimenting our idea
+          of Environdental into the company. I am currently looking to work on team that will present me with new challenges.
+          Some of my interests include Space and the further explanation, going to see movies, and spending time at amusment
+          parks.
+        </p>
+        <a href="https://docs.google.com/document/d/1vvA69clch5bOEmUkpQmpd6RNZdsCwixgM3P5UFAE7HU/edit">Resume</a>
+      </li>
+      <li>
+        <figure id='java'>
+          <!-- Photo by Quentin Dr on Unsplash -->
+          <img src="java.jpg" alt="java logo">
+          <figcaption><h3>Java Programer</h3></figcaption>
+        </figure>
+        <p>
+          I am a proficient Java coder. Click the link below to see some examples of the work I have done in Java ranging from my best work to my most recent.
+        </p>
+        <br>
+        <br>
+        <br>
+        <a href="homework4(java).html">Java Projects</a>
+      </li>
+      <li>
+        <figure>
+          <!-- Photo by Drew Farwell on Unsplash -->
+          <img src="python.jpg" alt="python logo">
+          <figcaption><h3>Python Programer</h3></figcaption>
+        </figure>
+        <p>
+		       The link below contains some of the projects I worked on within Python. Some of the skills learned in Python are regex, list comprehensions, and how to use a sql database through Python.
+		    </p>
+
+        <a href="homework4(python).html">Python Projects</a>
+      </li>
+      <li>
+        <figure>
+
+          <img src="xcode.jpg" alt="another product">
+          <figcaption><h3>Other Projects</h3></figcaption>
+        </figure>
+        <p>
+          I have worked in a variety of other programming languages as well such as Swift, Assembly, C, Android, and Particle. The last two languages were used to program robots and work on IoT.
+        </p>
+        <a href="homework4(other).html">Other Projects</a>
+      </li>
+    </ul>
+  </section>
+</main>
+<div class="contact">
+  <form method="post" action="" onsubmit="return validate(this);">
+    <h1> Contact Me </h1>
+    <span id="message"></span>
+    <br><br> What is your name? <input placeholder="name"  required type="text" id="name"><span id='nameError'></span>
+    <br> What is your email address? <input placeholder="email address"  required type="email" id="email"><span id='emailError'></span>
+    <br> Your message here
+    <br> <textarea placeholder="your reply" required name="reply" cols="50" rows="13" wrap="soft"></textarea><span id='replyError'></span>
+    <br><button name="submit" type='submit'>Send</button>
+  </form>
+</div>
+
+<footer>
+  <p>&copy; 2019.</p>
+</footer>
+</body>
+</html>

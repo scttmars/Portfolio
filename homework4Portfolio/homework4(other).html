@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Scott Marsden Portfolio</title>
+<meta author="Scott">
+<link rel="stylesheet" href="homework4(code).css">
+</head>
+<body>
+<section class="projects" id="projects">
+  <h1> Other Projects </h1>
+  <div class="menu">
+    <a href="homework4.html"> Home Page </a>
+    <a href="#"> More Examples </a>
+  </div>
+  <ul>
+    <li>
+      <figure>
+        <img src="robotics.jpg" alt="robotics">
+        <figcaption><h3>Robotics</h3></figcaption>
+      </figure>
+      <p>
+        For this project I had to create a robot that could grab things with a controller. We build an arm with a variety of joints that could be controlled to pick items up.
+      </p>
+      <a href="#">Link to Video</a>
+    </li>
+    <li>
+      <figure>
+        <img src="IoT.jpg" alt="internet of things">
+        <figcaption><h3>IoT</h3></figcaption>
+      </figure>
+      <p>
+        Below is a picture of a prototyle device that played a song and lit up whenever the international space station passed over a location using data from the internet.
+      </p>
+      <a href="youtube.com">Link to Video</a>
+    </li>
+    <li>
+      <figure>
+
+        <img src="oceans11.jpg" alt="mobile app">
+        <figcaption><h3>App Development</h3></figcaption>
+      </figure>
+      <p>
+        This was about a one month project. For this project I created an app in Xcode using Swift that allowed a user to play the card game Oceans 11. For this project I had to code the rules of poker along with an AI to play the game.
+      </p>
+      <br>
+      <br>
+      <br>
+      <a href="#">Link to Code</a>
+    </li>
+  </ul>
+
+  <div class="vote">
+    <form method="post" action="" onsubmit="return validate(this);">
+      <h1> Rate the projects </h1>
+      <span id="message"></span>
+      Which project was most interesting:
+
+      <select id="projects" name="projects" size="1">
+        <option value="0">None</option>
+        <option value="1">Robotics</option>
+        <option value="2">IoT</option>
+        <option value="3">App Development</option>
+      </select> <span id='selectError'></span>
+      <br>
+      <br>
+      <button name="submit" type='submit'>Vote</button>
+
+    </form>
+  </div>
+</section>
+
+</body>
+</html>

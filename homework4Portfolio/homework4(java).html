@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Scott Marsden Portfolio</title>
+<meta author="Scott">
+<link rel="stylesheet" href="homework4(code).css">
+<script type="text/javascript" src="homework4.js"></script>
+</head>
+<body>
+<section class="projects" id="projects">
+  <h1> Java Projects </h1>
+  <div class="menu">
+    <a href="homework4.html"> Home Page </a>
+    <a href="https://github.com/"> More Examples </a>
+  </div>
+  <ul>
+    <li>
+      <figure>
+        <img src="algorithms.jpg" alt="algorithms">
+        <figcaption><h3>Algorithms</h3></figcaption>
+      </figure>
+      <p>
+        This was a very recent project for me. For this project I ran three different algorithms on 10,000 random numbers to find the largest 10 in order. The main point of this project was to test partition compared to other algorithms.
+      </p>
+      <a href="#">Link to Code</a>
+    </li>
+    <li>
+      <figure>
+        <!-- Photo by Drew Farwell on Unsplash -->
+        <img src="reflection.jpg" alt="Java Reflection">
+        <figcaption><h3>Reflection</h3></figcaption>
+      </figure>
+      <p>
+        This is an example from when I used reflection in Java. This is the idea of having code that examines Java or other programs.
+      </p>
+      <br>
+      <br>
+      <br>
+      <a href="#">Link to Code</a>
+    </li>
+    <li>
+      <figure>
+        <img src="gui.jpg" alt="GUI">
+        <figcaption><h3>GUI Game</h3></figcaption>
+      </figure>
+      <p>
+        This was my first use of GUI in Java. This project allows the user to create squares that bounce around the screen. You then click on the squares to get points. It also allows the user to speed up and slow down the speed of the squares.
+      </p>
+      <br>
+      <br>
+      <br>
+      <a href="#">Link to Code</a>
+    </li>
+  </ul>
+  <div class="vote">
+    <form method="post" action="" onsubmit="return validate2(this);">
+      <h1> Rate the projects </h1>
+      <span id="message"></span>
+      Which project was most interesting:
+
+      <select id="projects" name="projects" size="1">
+        <option value="0">None</option>
+        <option value="1">Algorithms</option>
+        <option value="1">Reflection</option>
+        <option value="2">GUI Game</option>
+      </select> <span id='selectError'></span>
+      <br>
+      <br>
+      <button name="submit" type='submit'>Vote</button>
+
+    </form>
+  </div>
+</section>
+
+</body>
+</html>

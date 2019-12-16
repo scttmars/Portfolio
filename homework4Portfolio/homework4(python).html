@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Scott Marsden Portfolio</title>
+<meta author="Scott">
+<link rel="stylesheet" href="homework4(code).css">
+</head>
+<body>
+<section class="projects" id="projects">
+  <h1> Python Projects </h1>
+  <div class="menu">
+    <a href="homework4.html"> Home Page </a>
+    <a href="#"> More Examples </a>
+  </div>
+  <ul>
+    <li>
+      <figure>
+        <!-- Photo by Quentin Dr on Unsplash -->
+        <img src="cheatingHangman.jpg" alt="cheating hangman project">
+        <figcaption><h3> Cheating Hangman </h3></figcaption>
+      </figure>
+      <p>
+        This project was designed to take in a file of words to play hangman. The code is designed to cheat in the game and keep track of how many words are still possible based on what letters the user has suggested. This makes it very hard for the user to beat the program.
+      </p>
+      <a href="#">Link to Code</a>
+    </li>
+    <li>
+      <figure>
+        <!-- Photo by Drew Farwell on Unsplash -->
+        <img src="databaseExample.jpg" alt="example of database work">
+        <figcaption><h3>Connecting to a Database</h3></figcaption>
+      </figure>
+      <p>
+        For this project I connected to a database and used SQL to extract mentions, hashtags, and urls from tweets. Once this data was obtained it was put into a database.
+      </p>
+      <p></p>
+      <a href="#">Link to Code</a>
+    </li>
+    <li>
+      <figure>
+
+        <img src="listComps.jpg" alt="list comprehensions">
+        <figcaption><h3>List Comprehensions</h3></figcaption>
+      </figure>
+      <p>
+        This is a set of example problems of me using list comprehensions in python. This also included practice using regex.
+      </p>
+      <br>
+      <br>
+      <br>
+      <br>
+      <a href="#">Link to Code</a>
+    </li>
+  </ul>
+
+  <div class="vote">
+    <form method="post" action="" onsubmit="return validate(this);">
+      <h1> Rate the projects </h1>
+      <span id="message"></span>
+      Which project was most interesting:
+
+      <select id="projects" name="projects" size="1">
+        <option value="0">None</option>
+        <option value="1">Cheating Hangman</option>
+        <option value="2">Connecting to a Database</option>
+        <option value="3">List Comprehensions</option>
+      </select> <span id='selectError'></span>
+      <br>
+      <br>
+      <button name="submit" type='submit'>Vote</button>
+
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
